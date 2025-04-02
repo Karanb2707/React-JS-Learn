@@ -1,0 +1,11 @@
+Css: 1
+
+Type of Selector:
+
+Simple Selector:
+1. Element Selector
+2. Class Selector
+3. Id Selector
+
+Pseudo-class Selector:
+Multiple Selector
