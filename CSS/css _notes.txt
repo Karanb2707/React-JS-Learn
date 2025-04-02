@@ -9,3 +9,11 @@ Simple Selector:
 
 Pseudo-class Selector:
 Multiple Selector
+
+Element Selector:
+Styling HTML Elements using HTML Tag name it will apply for all same tag name
+
+Class Selector:
+HTML Elements have more than tag name they attributes also Class attribute we can style perticuler 
+Element/Tag
+in class css start with . period
