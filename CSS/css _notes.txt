@@ -29,3 +29,14 @@ eg: hover effect on button like this
 
 Multiple Selector:
 selecting Multiple class or Element or ids to give same style to them its called Multiple Selector
+
+Universal Selector:
+The universal selector (*) in CSS selects all elements on the page. 
+It applies styles to every element unless overridden by more specific selectors.
+
+Nested Selector:
+A nested selector in CSS allows you to write styles inside a parent selector, 
+making the structure more readable and maintainable.
+
+Attribute Selector:
+An attribute selector in CSS is used to style elements based on their attributes and attribute values.
