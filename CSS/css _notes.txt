@@ -17,3 +17,5 @@ Class Selector:
 HTML Elements have more than tag name they attributes also Class attribute we can style perticuler 
 Element/Tag
 in class css start with . period
+
+Id Selector:
