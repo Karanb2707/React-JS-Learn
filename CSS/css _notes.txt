@@ -19,3 +19,13 @@ Element/Tag
 in class css start with . period
 
 Id Selector:
+Id is unique it can not be same with other Element
+For Styling specific Element or component in web page we use id Selector 
+for selecting id we use # we start from #
+
+Pseudo-class Selector:
+Pseudo-class is keyword added to the Selector and give special state of that Element
+eg: hover effect on button like this
+
+Multiple Selector:
+selecting Multiple class or Element or ids to give same style to them its called Multiple Selector
