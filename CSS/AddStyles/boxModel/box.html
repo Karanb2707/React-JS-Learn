@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model</title>
+    
+    <style>
+        .box{
+            height: 100px;
+            width: 200px;
+            border: 1px solid black;
+            margin: 10px;
+            padding: 20px;
+            /* outside border is margin */
+            /* inside border is padding */
+            /* inside padding is content */
+        }
+        #div1{
+            background-color: orange;
+        }
+        #div2{
+            background-color: white;
+        }
+        #div3{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="div1">A</div>
+    <div class="box" id="div2">B</div>
+    <div class="box" id="div3">C</div>
+</body>
+</html>
