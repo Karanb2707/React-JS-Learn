@@ -40,3 +40,7 @@ making the structure more readable and maintainable.
 
 Attribute Selector:
 An attribute selector in CSS is used to style elements based on their attributes and attribute values.
+
+Specificity:
+
+tag selector -> class selector -> id selector -> in-line css -> !important
