@@ -41,6 +41,21 @@ making the structure more readable and maintainable.
 Attribute Selector:
 An attribute selector in CSS is used to style elements based on their attributes and attribute values.
 
+1. In line CSS: Added Directly inside tag using style tag
+<p style="font-size: 40px; font-style: italic; color: red;">Hello line 1</p>
+
+2. Internal CSS: Added in head tag using style tag styling give to elements
+
+3. External CSS: Added external css file using link tag in html file
+
 Specificity:
 
 tag selector -> class selector -> id selector -> in-line css -> !important
+
+Box Model:
+
+outside border is margin
+inside border is padding
+inside padding is content
+
+content ->padding ->border ->margin
