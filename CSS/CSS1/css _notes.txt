@@ -59,3 +59,20 @@ inside border is padding
 inside padding is content
 
 content ->padding ->border ->margin
+
+Absolute unit:
+px is smallest unit of image size of px is 1/96 inch eg: 100px
+
+Percentage unit:
+percentage of space aquired of parent element eg: width: 10%
+
+Relative unit:
+Relative unit font size:
+em: relative to parent font size eg: 2em = 2 * parent div font size
+    default 1 em = 16px
+
+rem: relative to root element depend on root element font size
+
+Relative unit to ViewPort:
+vw: 1/100 * width of ViewPort
+vh: 1/100 * height of ViewPort
