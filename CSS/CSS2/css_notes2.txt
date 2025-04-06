@@ -1,0 +1,8 @@
+CSS 2:
+
+gradients:
+gradients let you display smooth transitions between 2 or more colors
+1. linear gradients : goes down/up/left/right 
+2. radial gradients : defined by there center
+3. conic gradients : rounded around center point
+
