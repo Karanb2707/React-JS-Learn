@@ -6,3 +6,7 @@ gradients let you display smooth transitions between 2 or more colors
 2. radial gradients : defined by there center
 3. conic gradients : rounded around center point
 
+shadows:
+give shadow to ur text: text-shadow: horizontal-len vertical-len blur color (4 parameters)
+we can give multiple shadow to same text
+box shadow: default color of shadow is color of text
