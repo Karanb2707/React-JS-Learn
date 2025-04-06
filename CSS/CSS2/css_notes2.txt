@@ -10,3 +10,12 @@ shadows:
 give shadow to ur text: text-shadow: horizontal-len vertical-len blur color (4 parameters)
 we can give multiple shadow to same text
 box shadow: default color of shadow is color of text
+
+overflow:
+overflow: auto -> use to fit and scroll the content in div properly
+
+css postiton property
+static, relative, fixed, absolute, sticky
+
+transform:
+translate(v,h), rotate(deg), scale(v,h), skew(deg)
