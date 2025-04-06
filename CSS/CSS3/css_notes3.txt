@@ -1,0 +1,3 @@
+css postiton property
+static: default nothing new
+relative: it changes postiton according to [top, bottom, right, left] in css file
