@@ -25,3 +25,16 @@
     width: 300px;
     background-image: conic-gradient(red, yellow,orange);
 }
+
+h1{
+    text-shadow: 3px 3px 3px gray;
+    text-shadow: 3px 3px 3px gold,4px 4px 4px blue;
+}
+
+.box{
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 15px red, 10px 10px 20px yellow;
+    color: darkblue;
+}

@@ -17,5 +17,5 @@ overflow: auto -> use to fit and scroll the content in div properly
 css postiton property
 static, relative, fixed, absolute, sticky
 
-transform:
+transform 2D:
 translate(v,h), rotate(deg), scale(v,h), skew(deg)
