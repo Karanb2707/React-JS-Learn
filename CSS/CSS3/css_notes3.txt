@@ -1,3 +1,12 @@
 css postiton property
+
 static: default nothing new
+
 relative: it changes postiton according to [top, bottom, right, left] in css file
+
+fixed: postiton is always fixed no matter what it will not change the postiton
+
+absolute: it changes it postiton according to parent div or element if it is dont have parent div
+            then body will be parent of that div
+
+sticky: is postiton based on the user's scroll postiton

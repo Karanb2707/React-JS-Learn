@@ -2,6 +2,10 @@ p{
     position: static;
 }
 
+body{
+    height: 2000px;
+}
+
 div{
     border: 1px solid black;
     background-color: pink;
@@ -10,7 +14,35 @@ div{
     display: inline-block;
 }
 
+/* .parent{
+    height: 2000px;
+    width: 2000px;
+} */
+
 #box2{
     position: relative;
     top: 100px;
+    left: 30px;
+}
+
+.fix1{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+}
+
+#box3{
+    position: absolute;
+    right: 100px;
+    left: 150px;
+}
+
+.sticky1{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    position: sticky;
+    margin-top: 200px;
+    top: 0px;
 }
