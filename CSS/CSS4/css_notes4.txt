@@ -1,0 +1,9 @@
+CSS 4:
+
+Transistions 3D
+
+1. Static: Nothing new
+
+2. Transform: perspective is very imp for Trannsform we use translate here
+
+3. Scaled: we use scaleZ(2), rotate(45ddeg) its use to scaled the element
