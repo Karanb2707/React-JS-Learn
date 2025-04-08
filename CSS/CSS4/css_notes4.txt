@@ -2,8 +2,8 @@ CSS 4:
 
 Transistions 3D
 
-1. Static: Nothing new
+Static: No transformation is applied, the element stays in its original 3D space.
 
-2. Transform: perspective is very imp for Trannsform we use translate here
+Transform: Applies 3D effects like translateX, rotateY, requiring perspective to give depth.
 
-3. Scaled: we use scaleZ(2), rotate(45ddeg) its use to scaled the element
+Scaled: Enlarges or shrinks elements in 3D using functions like scaleZ, often combined with rotate.

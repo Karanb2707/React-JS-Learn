@@ -10,5 +10,5 @@ div{
 }
 
 .scaled {
-    transform: perspective(105px) scaleZ(2) rotateX(45deg);
+    transform: perspective(150px) scaleZ(3) rotateX(66deg);
 }
