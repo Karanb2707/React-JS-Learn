@@ -1,11 +1,29 @@
-CSS 5:
+CSS 5 – FlexBox
 
-FlexBox:
-FlexBox is layout model using that we can handle space distribution and alignment capabilities
-There is parent container which is called 'flex' and all other elementes in it called 'flex-items'
+FlexBox is a layout model to manage space and alignment within a container.
+The parent is called flex container, and its children are flex items.
 
-In FlexBox the main axis is horizontal axis so elementes will align on horizontal axis
+Main Axis: Horizontal (default) – elements align along this.
 
-flex-wrap: wrap -> element moves on next line
-flex-wrap: nowrap -> normal element size will reduce like according squeeze
-flex-wrap: wrap reverse -> element moves on above line                                                                                                                                 
+Cross Axis: Vertical – used for vertical alignment.
+
+Properties:
+
+flex-direction: Sets main axis direction
+row | row-reverse | column | column-reverse
+
+flex-wrap: Controls item wrapping
+nowrap (default) – items shrink to fit
+wrap – items move to next line
+wrap-reverse – wrap in reverse order
+
+flex-flow: Shorthand for flex-direction + flex-wrap
+
+justify-content (horizontal alignment)
+flex-start | flex-end | center | space-between | space-around | space-evenly
+
+align-items (vertical alignment of items)
+flex-start | flex-end | center
+
+align-content (vertical alignment of lines – when multiple rows)
+Same values as justify-content
