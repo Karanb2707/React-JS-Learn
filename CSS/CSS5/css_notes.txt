@@ -27,3 +27,7 @@ flex-start | flex-end | center
 
 align-content (vertical alignment of lines – when multiple rows)
 Same values as justify-content
+
+Flex-item Properties:
+
+42 min
