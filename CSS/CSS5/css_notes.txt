@@ -1,0 +1,11 @@
+CSS 5:
+
+FlexBox:
+FlexBox is layout model using that we can handle space distribution and alignment capabilities
+There is parent container which is called 'flex' and all other elementes in it called 'flex-items'
+
+In FlexBox the main axis is horizontal axis so elementes will align on horizontal axis
+
+flex-wrap: wrap -> element moves on next line
+flex-wrap: nowrap -> normal element size will reduce like according squeeze
+flex-wrap: wrap reverse -> element moves on above line                                                                                                                                 
