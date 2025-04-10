@@ -41,3 +41,6 @@ flex-basis: Sets the initial size of a flex item before any space distribution h
 flex: A shorthand for flex-grow, flex-shrink, and flex-basis combined in one line.
 
 Parallax effect:
+The parallax effect is a visual technique where background images move slower than 
+foreground images as you scroll, creating an illusion of depth. 
+It's often used in web design to make pages more dynamic and engaging.
