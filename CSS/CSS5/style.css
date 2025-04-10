@@ -6,13 +6,31 @@
     /* flex-direction: column; */
     flex-wrap: wrap;
     /* flex-flow: column wrap; */
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+
+    gap: 10px;
 }
 
 .box{
     border: 1px solid brown;
     background-color: aqua;
     width: 100px;
+    /* flex-grow: 1; */
+    /* flex-shrink: 4; */
+}
+
+#box1{
+    order: 1;
+    /* flex-grow: 1; */
+    flex-shrink: 2;
+}
+
+#box3{
+    order: 5;
+}
+
+#box2{
+    order: 3
 }
