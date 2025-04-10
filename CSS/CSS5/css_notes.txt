@@ -39,3 +39,5 @@ flex-shrink: Determines how much a flex item should shrink relative to others wh
 flex-basis: Sets the initial size of a flex item before any space distribution happens.
 
 flex: A shorthand for flex-grow, flex-shrink, and flex-basis combined in one line.
+
+Parallax effect:
