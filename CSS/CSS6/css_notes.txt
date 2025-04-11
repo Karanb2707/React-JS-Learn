@@ -1,0 +1,7 @@
+CSS 6:
+
+Grid:
+
+CSS Grid layout is a 2 dimensional layout system for the web
+
+It content rows and cols in combinition
