@@ -2,6 +2,11 @@ CSS 6:
 
 Grid:
 
-CSS Grid layout is a 2 dimensional layout system for the web
+CSS Grid is a two-dimensional layout system that lets you arrange items in rows and columns.
+It provides precise control over layout structure using properties like grid-template-rows, 
+grid-template-columns, and grid-area. It's perfect for creating complex responsive designs 
+with minimal code.
 
-It content rows and cols in combinition
+1fr: 1 fraction
+
+if use 1 fr 1 fr 1 fr divide the columns or rows in perfect 3 parts
