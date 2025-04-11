@@ -26,7 +26,8 @@
 }
 
 .foreground{
-    transform: translateZ(-20px) scale(3);
+    transform: translateZ(-20px) scale(2.5);
+    margin-top: 500px;
 }
 
 .background, .foreground{
@@ -39,10 +40,4 @@
 
 .heading{
     color: white;
-    position: relative;
-    font-size: 80px;
-    font-family: sans-serif;
-    left: 300px;
-    bottom: 100px;
-
 }
