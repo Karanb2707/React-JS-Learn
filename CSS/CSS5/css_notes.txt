@@ -15,11 +15,11 @@ row | row-reverse | column | column-reverse
 flex-wrap: Controls item wrapping
 nowrap (default) – items shrink to fit
 wrap – items move to next line
-wrap-reverse – wrap in reverse order
+wrap-reverse – items move to the above line
 
 flex-flow: Shorthand for flex-direction + flex-wrap
 
-justify-content (horizontal alignment)
+justify-content (horizontal alignment of items)
 flex-start | flex-end | center | space-between | space-around | space-evenly
 
 align-items (vertical alignment of items)
