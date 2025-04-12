@@ -1,0 +1,34 @@
+CSS 9:
+
+Functions in css:
+
+calc(): performs calculations – width: calc(100% - 50px);
+min(): picks the smallest – width: min(50vw, 400px);
+max(): picks the largest – width: max(300px, 20%);
+minmax(100px, 400px): sets a min and max range – used in Grid like grid-template-columns
+
+......................................................................................................
+
+Variables:
+
+How to delcare variable in css and then use that variable:
+
+delcare the variable in global scope:
+:root{
+    --dark-red: #981a2c;
+}
+
+color: var(--dark-red);
+..........................................................................................................
+
+Transitions in CSS:
+
+The transition shorthand property in CSS lets you define how element styles should smoothly change 
+from one state to another. It combines multiple transition-related properties into one.
+
+transition: [property] [duration] [timing-function] [delay];
+
+transition-property (what to animate, like width, background-color, or all)
+transition-duration (how long the transition takes, e.g., 0.3s)
+transition-timing-function (e.g., ease, linear, ease-in-out)
+transition-delay (when the transition starts, e.g., 0s, 1s)
