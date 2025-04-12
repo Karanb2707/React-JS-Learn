@@ -1,0 +1,14 @@
+
+Media Queries
+
+Media queries are CSS techniques used to apply styles based on device characteristics 
+like screen width, height, resolution, or orientation. They help create responsive 
+designs by adapting layouts to different screen sizes (e.g., mobile, tablet, desktop). 
+Media queries use the @media rule followed by conditions. For example:
+eg: @media (max-width: 768px) { body { font-size: 14px; } }
+
+
+Nested Grid:
+
+A nested grid is a CSS Grid layout where a grid item itself becomes a grid container, 
+allowing you to create complex layouts by placing grids inside other grids.
