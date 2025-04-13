@@ -19,7 +19,7 @@
     text-align: center;
     place-content: center;
 
-    transition: transform 1s ease 1s;
+    transition: all 1s ease-in 1.5s;
 }
 
 #trans1:hover{
@@ -29,6 +29,4 @@
 
 #trans2:hover{
     transform: scale(1.5) translateX(500px) rotate(360deg);
-    background-color: crimson;
-    color: white;
 }
