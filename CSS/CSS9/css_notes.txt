@@ -32,22 +32,3 @@ transition-property (what to animate, like width, background-color, or all)
 transition-duration (how long the transition takes, e.g., 0.3s)
 transition-timing-function (e.g., ease, linear, ease-in-out)
 transition-delay (when the transition starts, e.g., 0s, 1s)
-...........................................................................................................
-
-Animations:
-
-Animation in CSS allows elements to transition between styles over time using keyframes. 
-It enables smooth visual effects like movement, fading, or transformations without JavaScript.
-
-properties:
-
-@keyframes: Defines the animation steps (e.g., @keyframes slide { from {left: 0;} to {left: 100px;} })
-animation-name: Specifies the name of the @keyframes (e.g., animation-name: slide;)
-animation-duration: Sets how long the animation lasts (e.g., animation-duration: 2s;)
-animation-timing-function: Controls the speed curve (e.g., animation-timing-function: ease-in-out;)
-animation-delay: Delays the start (e.g., animation-delay: 1s;)
-animation-iteration-count: Number of times to run (e.g., animation-iteration-count: infinite;)
-animation-direction: Direction of animation (e.g., animation-direction: alternate;)
-animation-fill-mode: Sets how styles are applied before/after (e.g., animation-fill-mode: forwards;)
-animation-play-state: Pauses or runs animation (e.g., animation-play-state: paused;)
-animation: Shorthand for all (e.g., animation: slide 2s ease-in-out 1s infinite alternate forwards;)
