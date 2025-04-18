@@ -1,0 +1,15 @@
+Create React Project
+
+npm install -D tailwindcss@3 postcss autoprefixer vite
+
+npx tailwindcss init -p
+
+Add * in content in tailwind.config.js
+
+Add Scripts in package.json
+
+Add in css file
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
