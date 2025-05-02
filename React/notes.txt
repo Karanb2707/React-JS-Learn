@@ -1,0 +1,35 @@
+React Basics: Components
+
+What is a Component?
+A component is a reusable piece of code in React, typically written as a JavaScript function.
+It represents part of the user interface (UI), like a button, header, form, etc.
+Components make it easier to build, manage, and reuse UI elements.
+
+A website or app built with React usually consists of multiple components.
+Components can be nested, meaning one component can include others.
+Components help break down complex UIs into smaller, manageable pieces.
+The architecture of a React app is often built around well-structured components.
+
+........................................................................................................
+
+Why React:
+
+1. Plain JavaScript is manual and repetitive:
+Without React, you'd need to manually update the DOM every time something changes 
+(like text input, user action, etc.). This becomes hard to manage as your app grows.
+
+2. React makes UI updates automatic:
+
+React uses a virtual DOM, which efficiently updates only the parts of the page that changed.
+This leads to faster and smoother performance.
+
+3. Code is cleaner and reusable:
+React lets you build apps using components, so your code is modular, reusable, and easier to manage.
+
+4. Easier state management:
+React makes it simple to manage data (called state) and keep the UI in sync with it.
+
+5. Strong community and ecosystem:
+Huge support, tools, and libraries available for fast development.
+
+11 min
