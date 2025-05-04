@@ -1,0 +1,7 @@
+to create React app
+
+npx create-react-app@latest my-app
+
+cd my-app
+
+npm start

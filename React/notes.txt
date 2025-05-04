@@ -19,7 +19,6 @@ Without React, you'd need to manually update the DOM every time something change
 (like text input, user action, etc.). This becomes hard to manage as your app grows.
 
 2. React makes UI updates automatic:
-
 React uses a virtual DOM, which efficiently updates only the parts of the page that changed.
 This leads to faster and smoother performance.
 
@@ -32,4 +31,7 @@ React makes it simple to manage data (called state) and keep the UI in sync with
 5. Strong community and ecosystem:
 Huge support, tools, and libraries available for fast development.
 
-11 min
+SPA : Single Page Application
+A Single Page Application (SPA) is a web app that loads a single HTML page and 
+dynamically updates content without refreshing the page. It provides a smoother 
+user experience by using JavaScript to handle routing and data updates.
