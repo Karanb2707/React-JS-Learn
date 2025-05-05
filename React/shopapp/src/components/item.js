@@ -1,4 +1,4 @@
-import './item.css'
+import './Item.css'
 
 function Item() {
     return (
