@@ -3,7 +3,7 @@ import './Object.css'
 function Object() {
     return(
         <p className="obj">
-            New Object
+            Good Morning!
         </p>
     )
 }
