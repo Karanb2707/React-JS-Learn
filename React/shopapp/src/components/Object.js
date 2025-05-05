@@ -1,10 +1,11 @@
 import './Object.css'
 
-function Object() {
+function Object(props) 
+{
+    const itemName = props.name;
+
     return(
-        <p className="obj">
-            Good Morning!
-        </p>
+        <p className="obj">{itemName}</p>
     )
 }
 
