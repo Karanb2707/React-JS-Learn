@@ -3,12 +3,15 @@ import Object from './components/Object'
 import ItemDate from './components/ItemDate';
 
 function App() {
+  const secName = 'Karan';
   return (
+
     <div>
+        
       <Object name="Krutika"></Object>
       <ItemDate day="10" month="Dec" year="2003"></ItemDate>
 
-      <Object name="Karan"></Object>
+      <Object name={secName}></Object>
       <ItemDate day="27" month="July" year="2003"></ItemDate>
 
       <Object name="Hitman"></Object>
