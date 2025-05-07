@@ -5,7 +5,10 @@ function Object(props)
     const itemName = props.name;
 
     return(
-        <p className="obj">{itemName}</p>
+        <div>
+            <p className="obj">{itemName}</p>
+            {props.children}
+        </div>
     )
 }
 

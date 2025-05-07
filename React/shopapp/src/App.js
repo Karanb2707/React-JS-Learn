@@ -25,11 +25,13 @@ function App() {
       year:"1985"
     },
   ];
-  
+
   return (
     <div>
       
-      <Object name={data[0].name} ></Object>
+      <Object name={data[0].name} >
+        This is child object 
+      </Object>
       <ItemDate day={data[0].day} month={data[0].month} year={data[0].year}></ItemDate>
 
       <Object name={data[1].name}></Object>
