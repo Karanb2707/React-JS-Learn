@@ -1,32 +1,30 @@
 import './App.css';
+import Products from './components/Products'
 
 function App() {
-  // const secName = 'Karan';
 
   const data = [
     {
-      name:"Krutika",
-      day:"10",
-      month:"Dec",
-      year:"2003"
+      title:"Oppo A96",
+      price:"18000",
+      month:"Dec-2023",
     },
     {
-      name:"Karan",
-      day:"27",
-      month:"Jul",
-      year:"2003"
+      title:"Fire-bott",
+      price:"2000",
+      month:"Jun-2024",
     },
     {
-      name:"Rohit",
-      day:"30",
-      month:"April",
-      year:"1985"
+      title:"Acer-i5",
+      price:"60000",
+      month:"Jan-2022",
     },
+    
   ];
 
   return (
     <div>
-
+      <Products items={data}></Products>
     </div>
   );
 }
