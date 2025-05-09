@@ -1,6 +1,4 @@
 import './App.css';
-import Object from './components/Object'
-import ItemDate from './components/ItemDate';
 
 function App() {
   // const secName = 'Karan';
@@ -15,7 +13,7 @@ function App() {
     {
       name:"Karan",
       day:"27",
-      month:"June",
+      month:"Jul",
       year:"2003"
     },
     {
@@ -28,19 +26,7 @@ function App() {
 
   return (
     <div>
-      
-      <Object name={data[0].name} >
-        This is child object 
-      </Object>
-      <ItemDate day={data[0].day} month={data[0].month} year={data[0].year}></ItemDate>
 
-      <Object name={data[1].name}></Object>
-      <ItemDate day={data[1].day} month={data[1].month} year={data[1].year}></ItemDate>
-
-      <Object name={data[2].name}></Object>
-      <ItemDate day={data[2].day} month={data[2].month} year={data[2].year}></ItemDate>
-
-      <div className="App">Hello React</div>
     </div>
   );
 }
