@@ -28,9 +28,14 @@ function App() {
     
   ];
 
+  function grandParentProduct(data) {
+    console.log('inside App.js');
+    console.log(data);
+  }
+
   return (
     <div>
-      <NewProduct/>
+      <NewProduct onGrandParent = {grandParentProduct}/>
       <Products items={data}></Products>
     </div>
   );

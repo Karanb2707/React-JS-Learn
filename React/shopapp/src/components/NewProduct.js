@@ -1,10 +1,18 @@
 import './NewProduct.css';
 import ProductFrom from './ProductForm';
 
-function NewProduct() {
+function NewProduct(props) {
+
+    function parentProduct(product){
+        console.log('inside NewProduct.js');
+        console.log(product);
+
+        // calling its parent fun
+        props.onGrandParent(product);
+    }
     return(
         <div className='new-prod'>
-            <ProductFrom/>
+            <ProductFrom onParent = {parentProduct}/>
         </div>
     )
 }

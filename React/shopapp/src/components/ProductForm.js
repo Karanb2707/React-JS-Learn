@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './ProductForm.css';
 
-function ProductFrom() {
+function ProductFrom(props) {
 
     const [newTitle, setTitle] = useState('');
     const [newPrice, setPrice] = useState('');
@@ -28,6 +28,9 @@ function ProductFrom() {
         };
 
         console.log(productData);
+
+        // calling parent function
+        props.onParent(productData);
 
         setTitle('');
         setPrice('');
