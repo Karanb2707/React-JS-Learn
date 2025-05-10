@@ -3,9 +3,9 @@ import './ProductForm.css';
 
 function ProductFrom() {
 
-    const [title, setTitle] = useState('');
-    const [price, setPrice] = useState('');
-    const [date, setDate] = useState('');
+    const [newTitle, setTitle] = useState('');
+    const [newPrice, setPrice] = useState('');
+    const [newDate, setDate] = useState('');
 
     function titleChangeHandler(event) {
         setTitle(event.target.value);
@@ -17,23 +17,36 @@ function ProductFrom() {
 
     function dateChangeHandler(event) {
         setDate(event.target.value);
+    }
 
-        console.log([title, price, date])
+    function submitHandler(event) {
+        event.preventDefault();
+        const productData = {
+            title: newTitle,
+            price: newPrice,
+            date: newDate
+        };
+
+        console.log(productData);
+
+        setTitle('');
+        setPrice('');
+        setDate('');
     }
     
     return(
-        <form>
+        <form onSubmit={submitHandler}>
             <div className='prod-label'>
                 <label>Title</label>
-                <input type='text' onChange={titleChangeHandler}></input>
+                <input type='text' value={newTitle} onChange={titleChangeHandler}></input>
             </div>
             <div className='prod-label'>
                 <label>Price</label>
-                <input type='text' onChange={priceChangeHandler}></input>
+                <input type='text' value={newPrice} onChange={priceChangeHandler}></input>
             </div>
             <div className='prod-label'>
                 <label>Mfg Date</label>
-                <input type='date' onChange={dateChangeHandler}></input>
+                <input type='date' value={newDate} min="2025-05-10" max="2026-05-10" onChange={dateChangeHandler}></input>
             </div>
             <div className='prod-button'>
                 <button type='submit'>Add Product</button>
