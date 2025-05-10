@@ -8,15 +8,18 @@ const Products = (props) => {
             <ProductItem 
                 title={props.items[0].title} 
                 price={props.items[0].price}
+                date={props.items[0].date}
             >
             </ProductItem>
 
             <ProductItem 
-                title={props.items[1].title}>
+                title={props.items[1].title}
+            >
             </ProductItem>
 
             <ProductItem 
-                title={props.items[2].title}>
+                title={props.items[2].title}
+            >
             </ProductItem>
         </div>
     )
