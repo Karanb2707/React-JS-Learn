@@ -14,11 +14,15 @@ const Products = (props) => {
 
             <ProductItem 
                 title={props.items[1].title}
+                price={props.items[1].price}
+                date={props.items[1].date}
             >
             </ProductItem>
 
             <ProductItem 
                 title={props.items[2].title}
+                price={props.items[2].price}
+                date={props.items[2].date}
             >
             </ProductItem>
         </div>

@@ -6,7 +6,7 @@ const ProductPriceDate = (props) => {
 
     return (
         <div className='info-box'>
-            <h3>Price: {price}</h3>
+            <h3>Price: {price}/-</h3>
             <p>Mfg: {date}</p>
         </div>
     )
