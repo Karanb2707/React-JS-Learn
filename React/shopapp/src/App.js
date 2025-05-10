@@ -19,6 +19,11 @@ function App() {
       price:"60000",
       date:"Jan-2022",
     },
+    {
+      title:"Sony-A5",
+      price:"100000",
+      date:"Jan-2025",
+    },
     
   ];
 
