@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import {useState} from 'react';
 
 import './ProductItem.css';
 import ProductPriceDate from './ProductPriceDate'
@@ -13,7 +13,7 @@ const ProductItem = (props) => {
 
     function clickHandler() {
         setTitle("Added!");
-        console.log('Added in Cart!!')
+        console.log('Added in Cart!')
     }
 
     return(
@@ -22,7 +22,7 @@ const ProductItem = (props) => {
 
             <h1 className='prod-title'>{title}</h1>
 
-            <button onClick={clickHandler}>Add to Cart</button>
+            <button className='prod-btn' onClick={clickHandler}>Add to Cart</button>
         </div>
     )
 }

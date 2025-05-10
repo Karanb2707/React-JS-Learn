@@ -16,3 +16,11 @@
     cursor: pointer;
     padding: 14px;
 }
+
+.prod-btn{
+    background-color: rgb(117, 0, 0);
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    cursor: pointer;
+}
