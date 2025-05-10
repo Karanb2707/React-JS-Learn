@@ -3,15 +3,15 @@ import ProductPriceDate from './ProductPriceDate'
 
 const ProductItem = (props) => {
     
-    const title = props.title;
-    const price = props.price;
-    const date = props.date;
+    function clickHandler() {
+        alert('Added in Cart!!')
+    }
 
     return(
         <div className = "productItem">
-            <ProductPriceDate price={price} date={date}></ProductPriceDate>
-            <h1 className='prod-title'>{title}</h1>
-            <button>Add to Cart</button>
+            <ProductPriceDate price={props.price} date={props.date}></ProductPriceDate>
+            <h1 className='prod-title'>{props.title}</h1>
+            <button onClick={clickHandler}>Add to Cart</button>
         </div>
     )
 }
