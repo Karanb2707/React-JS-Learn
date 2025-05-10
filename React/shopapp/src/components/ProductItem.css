@@ -1,5 +1,8 @@
-.productItem{    
-    text-align: center;
+.productItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
     font-size: 14px;
     font-family: sans-serif;
     font-weight: bold;
@@ -11,4 +14,9 @@
     margin-right: auto;
     background-color: rgb(255, 203, 114);
     cursor: pointer;
+    padding: 14px;
+}
+
+.prod-title{
+    margin-right: 16px;
 }

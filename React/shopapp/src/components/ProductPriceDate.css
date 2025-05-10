@@ -1,7 +1,7 @@
 .info-box{
     border: 1px solid black;
     width: 120px;
-    margin: 10px;
     background-color: rgb(150, 199, 255);
     border-radius: 8px;
+    text-align: center;
 }

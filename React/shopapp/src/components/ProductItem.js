@@ -9,8 +9,8 @@ const ProductItem = (props) => {
 
     return(
         <div className = "productItem">
-            <h1>{title}</h1>
             <ProductPriceDate price={price} date={date}></ProductPriceDate>
+            <h1 className='prod-title'>{title}</h1>
         </div>
     )
 }
