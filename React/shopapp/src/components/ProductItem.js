@@ -11,6 +11,7 @@ const ProductItem = (props) => {
         <div className = "productItem">
             <ProductPriceDate price={price} date={date}></ProductPriceDate>
             <h1 className='prod-title'>{title}</h1>
+            <button>Add to Cart</button>
         </div>
     )
 }

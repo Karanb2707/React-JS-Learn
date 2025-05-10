@@ -8,15 +8,11 @@
     font-weight: bold;
     border: 2px solid black;
     border-radius: 10px;
-    width: 340px;
+    width: auto;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(255, 203, 114);
     cursor: pointer;
     padding: 14px;
-}
-
-.prod-title{
-    margin-right: 16px;
 }
