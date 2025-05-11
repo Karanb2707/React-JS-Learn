@@ -1,8 +1,16 @@
+import React, { useState } from "react";
+import data from './Data'
+import Tours from "./components/Tours";
 
-function App() {
+const App = () => {
+
+  const [tours, setTours] = useState(data);
+
   return (
-    <div className=""></div>
+    <div>
+      <Tours tours={tours}></Tours>
+    </div>
   )
 }
 
-export default App;
+export default App
