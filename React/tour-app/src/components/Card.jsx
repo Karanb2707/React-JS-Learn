@@ -15,17 +15,22 @@ function Card({name, info, image, price}) {
             <img src={image} className="tour-img" />
 
             <div className="tour-info">
-                <h4 className="tour-price">{price}</h4>
-                <h3 className="tour-name">{name}</h3>
-            </div>
+                <div className="tour-details">
+                    <h4 className="tour-price">{price}</h4>
+                    <h3 className="tour-name">{name}</h3>
+                </div>
 
-            <div className="tour-desc">
-                {description}
-                <span className="read-more" onClick={readMoreHandler}>
-                    {readMore ? `show less` : `read more`}
-                </span>
+                <div className="tour-desc">
+                    {description}
+                    <span className="read-more" onClick={readMoreHandler}>
+                        {readMore ? `show less` : `read more`}
+                    </span>
+                </div>
             </div>
-            
+            {/* 1hr */}
+            <button>
+                Not Interested
+            </button>
         </div>
     )
 }
