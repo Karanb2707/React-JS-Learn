@@ -2,8 +2,16 @@
 function App() {
 
   return (
-    <div className="flex h-1.5 bg-amber-100">
+    <div className="w-[100vw] h-[100vh]">
+      <div>Increment & Decrement</div>
 
+      <div>
+        <button>-</button>
+        <div></div>
+        <button>+</button>
+      </div>
+
+      <button>Reset</button>
     </div>
   )
 }
