@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Card({id, name, info, image, price}, removeTour) {
+function Card({id, name, info, image, price, removeTour}) {
 
     const [readMore, setReadMore] = useState(false);
     const description = `${info.substring(0, 200)}....`;

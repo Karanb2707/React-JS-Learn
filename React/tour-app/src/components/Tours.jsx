@@ -1,3 +1,4 @@
+import Card from "./Card";
 
 function Tours({tours, removeTourFun}) {
     return (

@@ -1,4 +1,4 @@
-const Data = [
+const data = [
     {
       "id": 1,
       "name": "Mumbai",
@@ -69,4 +69,6 @@ const Data = [
       "image": "https://www.akvintourism.com/wp-content/uploads/2020/04/IMG_7445-min.jpg",
       "price": 98000
     }
-]
+];
+
+export default data;
