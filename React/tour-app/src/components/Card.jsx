@@ -27,7 +27,6 @@ function Card({name, info, image, price}) {
                     </span>
                 </div>
             </div>
-            {/* 1hr */}
             <button>
                 Not Interested
             </button>
