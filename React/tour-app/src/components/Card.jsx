@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Card({name, info, image, price}) {
+function Card({id, name, info, image, price}, removeTour) {
 
     const [readMore, setReadMore] = useState(false);
     const description = `${info.substring(0, 200)}....`;
@@ -27,7 +27,7 @@ function Card({name, info, image, price}) {
                     </span>
                 </div>
             </div>
-            <button>
+            <button className="tour-btn" onClick={() => removeTour(id)}>
                 Not Interested
             </button>
         </div>
