@@ -3,12 +3,14 @@ import Card from "./Card";
 function Tours({tours, removeTourFun}) {
     return (
         <div>
-            <h1>Plan With Love</h1>
+            <div>
+                <h1>Plan With Love</h1>
+            </div>
 
             <div>
                 {
                     tours.map( (tour) => {
-                        return <Card {...tour} removeTour = {removeTourFun}></Card>
+                        return <Card key={tour.id} {...tour} removeTour = {removeTourFun}></Card>
                     })
                 }
             </div>
