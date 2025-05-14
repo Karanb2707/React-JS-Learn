@@ -3,9 +3,7 @@ import Card from "./Card";
 function Tours({tours, removeTourFun}) {
     return (
         <div>
-            <div>
-                <h1>Plan With Love</h1>
-            </div>
+            <h1>Plan With Love</h1>
 
             <div>
                 {
