@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 function App() {
 
@@ -9,10 +9,36 @@ function App() {
     console.log(text);
   }
 
-  // 13 min
+  // var 1 - Every time
+  // useEffect( () => {
+  //   console.log('Every Time!');
+  // });
+
+  // var2 - First Time
+  // useEffect( () => {
+  //   console.log('First Time');
+  // }, []);
+
+  // var3 - First Time + Dependency List
+  // useEffect( () => {
+  //   console.log('Update Time')
+  // }, [text]);
+
+  // var4 - For handling unmounting component
+  useEffect( () => {
+    console.log('Listener added');
+
+    return () => {
+      console.log('Listener removed')
+    }
+  }, [text]);
+
+  // 42 min
+
   return (
-    <div className="App">
-      <input type="text" onChange={changeHandler}> </input>
+    <div className="w-fit border mx-auto my-2">
+      <input type="text" className="p-1" onChange={changeHandler}></input>
+      
     </div>
   )
 }
