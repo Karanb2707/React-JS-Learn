@@ -8,7 +8,10 @@ npm start
 
 .....................................................
 
-props:
-In React, props (short for properties) are used to pass data from a parent component to 
-a child component. They are read-only and help make components reusable and dynamic.
+to create react app using vite
 
+1.npm create vite@latest
+
+2.npm install tailwindcss @tailwindcss/vite
+
+3.

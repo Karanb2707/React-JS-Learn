@@ -37,6 +37,9 @@ dynamically updates content without refreshing the page. It provides a smoother
 user experience by using JavaScript to handle routing and data updates.
 
 ...................................................................................................................
+props:
+In React, props (short for properties) are used to pass data from a parent component to 
+a child component. They are read-only and help make components reusable and dynamic.
 
 useState:
 useState is a React hook that allows functional components to have and manage state.
